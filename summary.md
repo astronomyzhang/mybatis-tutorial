@@ -72,7 +72,7 @@ sqlSession.insert("yeepay.payplus.mapper.UserMapper.insert", p);
 **⑥ 修改记录**
 
 ```
-sqlSession.insert("yeepay.payplus.mapper.UserMapper.update", p);
+sqlSession.update("yeepay.payplus.mapper.UserMapper.update", p);
 ```
 
 **⑦ 删除记录**
